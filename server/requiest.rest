@@ -1,0 +1,84 @@
+GET http://localhost:8000/highscores
+
+
+###
+
+GET http://localhost:8000/highscores/high
+Content-Type: application/json
+
+
+###
+
+GET http://localhost:8000/highscores/highten/602ceaabd55b0104861b7713
+Content-Type: application/json
+
+###
+
+POST http://localhost:8000/highscores
+Content-Type: application/json
+
+{
+      "game": {
+      "id": "602ceaabd55b0104861b7713",
+      "title": "Asteroids"
+      },
+        "player": "Jane Doe",
+        "date": "2020-05-03 15:00",
+        "score": "400000"
+}
+
+###
+
+PUT http://localhost:8000/highscores/602dca315d105e1d64c76d23
+Content-Type: application/json
+
+{
+    
+    "score": 400002
+  }
+
+###
+
+DELETE http://localhost:8000/highscores/602ba8bedb7b0c042b2910ad
+
+###
+// Game
+
+GET http://localhost:8000/games
+Content-Type: application/json
+
+###
+
+POST http://localhost:8000/games
+Content-Type: application/json
+
+{
+    "title": "Asteroids",
+        "description": "Lorem ipsum dolor sit amet",
+        "genre": "shoot'em up",
+        "releaseYear": 1979,
+        "imageUrl": "https://via.placeholder.com/380x380.png?text=Asteroids"
+    }
+
+###
+PUT  http://localhost:8000/games/602ceaabd55b0104861b7713
+Content-Type: application/json
+
+{
+    "title": "Asteroids",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eveniet rerum cupiditate! Cum iusto delectus hic provident neque. Aliquam iusto delectus ut tempora atque veniam dolor sapiente culpa nulla beatae!",
+        "genre": "shoot'em up",
+        "releaseYear": 1979,
+        "imageUrl": "https://via.placeholder.com/380x380.png?text=Asteroids"
+    }
+
+###
+
+GET http://localhost:8000/games/602ceaabd55b0104861b7713
+Content-Type: application/json
+
+###
+
+
+GET http://localhost:8000/games/title/Tetris
+Content-Type: application/json

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "game": {
+            "id": 1,
+            "title": "Tetris"
+        },
+        "player": "John Doe",
+        "date": "2019-01-01 15:00",
+        "score": "100000"
+    },
+    {
+        "id": 2,
+        "game": {
+            "id": 1,
+            "title": "Tetris"
+        },
+        "player": "Jane Doe",
+        "date": "2019-02-02 15:00",
+        "score": "200000"
+    },
+    {
+        "id": 3,
+        "game": {
+            "id": 1,
+            "title": "Tetris"
+        },
+        "player": "Jane Doe",
+        "date": "2019-03-03 15:00",
+        "score": "300000"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Tetris",
+        "description": "Lorem ipsum dolor sit amet",
+        "genre": "puzzle",
+        "releaseYear": 1984,
+        "imageUrl": "https://via.placeholder.com/380x380.png?text=Tetris"
+    },
+    {
+        "id": 2,
+        "title": "Pac-Man",
+        "description": "Lorem ipsum dolor sit amet",
+        "genre": "labyrinth",
+        "releaseYear": 1980,
+        "imageUrl": "https://via.placeholder.com/380x380.png?text=Pac-Man"
+    },
+    {
+        "id": 3,
+        "title": "Asteroids",
+        "description": "Lorem ipsum dolor sit amet",
+        "genre": "shoot'em up",
+        "releaseYear": 1979,
+        "imageUrl": "https://via.placeholder.com/380x380.png?text=Asteroids"
+    }
+]
